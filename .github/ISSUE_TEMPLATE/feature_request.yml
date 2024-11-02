@@ -1,7 +1,7 @@
 name: Feature Request
 description: Suggest an idea for this project
 title: "[FEATURE] "
-labels: 
+labels:
   - enhancement
 
 body:
@@ -47,4 +47,16 @@ body:
     id: alternatives
     attributes:
       label: "Alternative Solutions"
-      description: "A clear and concise description of any
+      description: "A clear and concise description of any alternative solutions or features you've considered."
+      placeholder: "Describe any alternatives you've considered"
+
+  - type: markdown
+    attributes:
+      value: "**Additional Context**"
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context or screenshots about the feature request here."
+      placeholder: "Additional context or screenshots"
