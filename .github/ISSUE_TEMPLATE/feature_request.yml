@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "[FEATURE] "
+labels: 
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: "**💡 IMPORTANT! Please do not edit the title of the issue! 💡**"
+
+  - type: markdown
+    attributes:
+      value: "**📝 Feature Request**"
+
+  - type: markdown
+    attributes:
+      value: "**Is your feature request related to a problem? Please describe.**"
+
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: "Problem Description"
+      description: "A clear and concise description of the problem."
+      placeholder: "Describe the problem"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Describe the solution you'd like**"
+
+  - type: textarea
+    id: solution_description
+    attributes:
+      label: "Proposed Solution"
+      description: "A clear and concise description of what you want to happen."
+      placeholder: "Describe your proposed solution"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Describe alternatives you've considered**"
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternative Solutions"
+      description: "A clear and concise description of any

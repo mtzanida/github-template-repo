@@ -1,0 +1,97 @@
+name: Bug Report
+description: Create a report to help us improve
+title: "[BUG] "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: "**🛑 IMPORTANT! Please do not edit the title of the issue! 🛑**"
+
+  - type: markdown
+    attributes:
+      value: "**❗ REMINDER! If the information you have added is incorrect or not final, please discard the form by closing the issue and opening a new one with the correct information. Once an assignee has been added, the request form is considered finalized. Please be careful with this process, as any additional changes must then be made by contacting our team. ❗**"
+
+  - type: markdown
+    attributes:
+      value: "**Bug Report**"
+
+  - type: markdown
+    attributes:
+      value: "**Please fill out the bug report form. Note that some fields are required.**"
+
+  - type: markdown
+    attributes:
+      value: "**Describe the bug**"
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "Bug Description"
+      description: "A clear and concise description of what the bug is."
+      placeholder: "Describe the bug"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**To Reproduce**"
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Steps to reproduce the behavior."
+      placeholder: "1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See error"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Expected behavior**"
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "A clear and concise description of what you expected to happen."
+      placeholder: "Expected behavior"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Screenshots**"
+
+  - type: input
+    id: screenshots
+    attributes:
+      label: "Screenshots (if applicable)"
+      description: "If applicable, add screenshots to help explain your problem."
+      placeholder: "Link to screenshots"
+
+  - type: markdown
+    attributes:
+      value: "**Environment**"
+
+  - type: input
+    id: os
+    attributes:
+      label: "Operating System"
+      description: "e.g. Windows, macOS, Linux"
+      placeholder: "Operating System"
+
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser"
+      description: "e.g. Chrome, Safari"
+      placeholder: "Browser"
+
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      description: "e.g. 22"
+      placeholder: "Version"

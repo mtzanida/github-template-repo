@@ -1,4 +1,4 @@
-# github-template-repo
+# Github-template-repo
 
 A versatile GitHub template designed for quick project setup. This template includes essential configurations such as custom issue labels, contribution guidelines, a code of conduct, and workflows to streamline development processes. Ideal for consistent project initialization.
 
@@ -22,16 +22,9 @@ To create a new repository based on this template, click the **"Use this templat
 2. **Clone Your Repository**:
 
    ```bash
-   git clone https://github.com/<your_username>/<new_repo_name>.git
-
-
-
-   -------------
-
-   Here's a structured documentation for using `sops` to manage secrets in your project. You can include this in a `README.md` or a dedicated `docs/` directory within your repository.
+   git clone https://github.com/mtzanida/<new_repo_name>.git
    ```
 
-````markdown
 # Managing Secrets with SOPS
 
 This document outlines the steps to manage secrets in your project using [sops](https://github.com/mozilla/sops). SOPS is a tool for managing encrypted files, which helps keep sensitive data safe.
@@ -53,6 +46,7 @@ You can install `sops` using Homebrew:
 ```bash
 brew install sops
 ```
+
 ````
 
 ### Windows
@@ -172,3 +166,4 @@ You can decrypt the `secrets.enc.yaml` file when you need to access your secrets
 ## Conclusion
 
 By following these steps, you can effectively manage your secrets in your project using `sops`. Always handle sensitive information carefully, leveraging encryption and proper access control to protect your secrets.
+
